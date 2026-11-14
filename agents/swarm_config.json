@@ -1,0 +1,46 @@
+{
+  "swarm_title": "Smartwatch Wallpaper Studio",
+  "version": "1.0.0",
+  "description": "Multi-Agent swarm architecture for automated ingestion, profiling, smart framing, and AMOLED optimization of smartwatch wallpapers.",
+  "roles": {
+    "coordinator": {
+      "type": "lead",
+      "model": "inherit",
+      "responsibility": "Orchestrates user workflow, passes jobs to pipeline agents, monitors deliverables, and handles final GitHub publishing."
+    },
+    "profiler": {
+      "type": "hardware_architect",
+      "model": "inherit",
+      "responsibility": "Device catalog, resolutions, aspect ratios, panel types, and UI clock safe zone constraints."
+    },
+    "ingester": {
+      "type": "io_handler",
+      "model": "inherit",
+      "responsibility": "Image acquisition from web URLs, Steam workshop, and local files; raster standardizing to RGB."
+    },
+    "cropper": {
+      "type": "layout_artist",
+      "model": "inherit",
+      "responsibility": "Rule-of-thirds smart vertical bias, aspect ratio framing, and Lanczos high-order resampling."
+    },
+    "enhancer": {
+      "type": "colorist_engineer",
+      "model": "inherit",
+      "responsibility": "Smoothstep AMOLED black crush (#000000), contrast, vibrancy, micro-clarity unsharp mask, and 4:4:4 chroma export."
+    },
+    "monitor": {
+      "type": "watchdog",
+      "model": "inherit",
+      "responsibility": "Board activity monitor ensuring zero task deadlocks and timely delivery."
+    }
+  },
+  "pipeline_flow": [
+    "user_request",
+    "coordinator",
+    "profiler",
+    "ingester",
+    "cropper",
+    "enhancer",
+    "export_delivery"
+  ]
+}

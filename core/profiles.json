@@ -1,0 +1,231 @@
+{
+  "redmi_watch_5_lite": {
+    "name": "Redmi Watch 5 Lite",
+    "aliases": ["rw5l", "redmi5lite", "redmi_5_lite", "watch_5_lite", "default"],
+    "brand": "Xiaomi / Redmi",
+    "width": 410,
+    "height": 502,
+    "aspect_ratio": "1:1.224",
+    "screen_shape": "rounded_rectangle",
+    "corner_radius": 40,
+    "screen_diagonal_inches": 1.96,
+    "ppi": 332,
+    "panel": "AMOLED",
+    "tuning": {
+      "black_point_crush": 14,
+      "pure_black_bg": true,
+      "contrast_multiplier": 1.15,
+      "vibrancy_boost": 1.10,
+      "sharpness_radius": 1.0,
+      "sharpness_percent": 120,
+      "max_package_mb": 3.0
+    },
+    "safe_zones": {
+      "margin_padding": 24,
+      "top_clock": { "x1": 20, "y1": 0, "x2": 390, "y2": 130, "description": "Top digital clock & date widgets" },
+      "bottom_clock": { "x1": 20, "y1": 375, "x2": 390, "y2": 502, "description": "Bottom digital clock & date widgets" },
+      "recommended_subject_zone": { "x1": 24, "y1": 130, "x2": 386, "y2": 470, "description": "Ideal placement for faces/focal subjects" }
+    }
+  },
+  "redmi_watch_5_active": {
+    "name": "Redmi Watch 5 Active",
+    "aliases": ["rw5a", "redmi5active", "redmi_5_active"],
+    "brand": "Xiaomi / Redmi",
+    "width": 320,
+    "height": 385,
+    "aspect_ratio": "1:1.203",
+    "screen_shape": "rounded_rectangle",
+    "corner_radius": 32,
+    "screen_diagonal_inches": 2.0,
+    "ppi": 250,
+    "panel": "LCD",
+    "tuning": {
+      "black_point_crush": 0,
+      "pure_black_bg": false,
+      "black_floor_lift": 6,
+      "contrast_multiplier": 1.08,
+      "vibrancy_boost": 1.12,
+      "sharpness_radius": 1.0,
+      "sharpness_percent": 135,
+      "max_package_mb": 2.5
+    },
+    "safe_zones": {
+      "margin_padding": 20,
+      "top_clock": { "x1": 16, "y1": 0, "x2": 304, "y2": 105, "description": "Top digital clock" },
+      "bottom_clock": { "x1": 16, "y1": 285, "x2": 304, "y2": 385, "description": "Bottom digital clock" },
+      "recommended_subject_zone": { "x1": 20, "y1": 105, "x2": 300, "y2": 365, "description": "Focal subject zone" }
+    }
+  },
+  "redmi_watch_4": {
+    "name": "Redmi Watch 4",
+    "aliases": ["rw4", "redmi4", "redmi_4"],
+    "brand": "Xiaomi / Redmi",
+    "width": 390,
+    "height": 450,
+    "aspect_ratio": "1:1.154",
+    "screen_shape": "rounded_rectangle",
+    "corner_radius": 48,
+    "screen_diagonal_inches": 1.97,
+    "ppi": 302,
+    "panel": "AMOLED",
+    "tuning": {
+      "black_point_crush": 14,
+      "pure_black_bg": true,
+      "contrast_multiplier": 1.15,
+      "vibrancy_boost": 1.10,
+      "sharpness_radius": 1.0,
+      "sharpness_percent": 120,
+      "max_package_mb": 3.0
+    },
+    "safe_zones": {
+      "margin_padding": 24,
+      "top_clock": { "x1": 20, "y1": 0, "x2": 370, "y2": 120, "description": "Top clock zone" },
+      "bottom_clock": { "x1": 20, "y1": 340, "x2": 370, "y2": 450, "description": "Bottom clock zone" },
+      "recommended_subject_zone": { "x1": 24, "y1": 120, "x2": 366, "y2": 425, "description": "Focal subject zone" }
+    }
+  },
+  "xiaomi_smart_band_8_9_10": {
+    "name": "Xiaomi Smart Band 8 / 9 / 10",
+    "aliases": ["band8", "band9", "band10", "miband8", "miband9", "miband10", "pill"],
+    "brand": "Xiaomi",
+    "width": 192,
+    "height": 490,
+    "aspect_ratio": "1:2.552",
+    "screen_shape": "pill",
+    "corner_radius": 96,
+    "screen_diagonal_inches": 1.62,
+    "ppi": 326,
+    "panel": "AMOLED",
+    "tuning": {
+      "black_point_crush": 16,
+      "pure_black_bg": true,
+      "contrast_multiplier": 1.18,
+      "vibrancy_boost": 1.15,
+      "sharpness_radius": 0.8,
+      "sharpness_percent": 140,
+      "max_package_mb": 1.5
+    },
+    "safe_zones": {
+      "margin_padding": 16,
+      "top_clock": { "x1": 16, "y1": 0, "x2": 176, "y2": 140, "description": "Pill dome top clock zone" },
+      "bottom_clock": { "x1": 16, "y1": 350, "x2": 176, "y2": 490, "description": "Pill dome bottom clock zone" },
+      "recommended_subject_zone": { "x1": 20, "y1": 140, "x2": 172, "y2": 360, "description": "Narrow vertical subject core" }
+    }
+  },
+  "xiaomi_smart_band_8_9_pro": {
+    "name": "Xiaomi Smart Band 8 Pro / 9 Pro",
+    "aliases": ["band8pro", "band9pro", "miband8pro", "miband9pro"],
+    "brand": "Xiaomi",
+    "width": 336,
+    "height": 480,
+    "aspect_ratio": "1:1.428",
+    "screen_shape": "rounded_rectangle",
+    "corner_radius": 40,
+    "screen_diagonal_inches": 1.74,
+    "ppi": 336,
+    "panel": "AMOLED",
+    "tuning": {
+      "black_point_crush": 14,
+      "pure_black_bg": true,
+      "contrast_multiplier": 1.15,
+      "vibrancy_boost": 1.10,
+      "sharpness_radius": 1.0,
+      "sharpness_percent": 120,
+      "max_package_mb": 2.5
+    },
+    "safe_zones": {
+      "margin_padding": 20,
+      "top_clock": { "x1": 16, "y1": 0, "x2": 320, "y2": 125, "description": "Top clock zone" },
+      "bottom_clock": { "x1": 16, "y1": 360, "x2": 320, "y2": 480, "description": "Bottom clock zone" },
+      "recommended_subject_zone": { "x1": 20, "y1": 125, "x2": 316, "y2": 450, "description": "Subject focal zone" }
+    }
+  },
+  "xiaomi_watch_s3_s4": {
+    "name": "Xiaomi Watch S3 / S4",
+    "aliases": ["watchs3", "watchs4", "xiaomi_s3", "xiaomi_s4", "circle466"],
+    "brand": "Xiaomi",
+    "width": 466,
+    "height": 466,
+    "aspect_ratio": "1:1",
+    "screen_shape": "circle",
+    "corner_radius": 233,
+    "screen_diagonal_inches": 1.43,
+    "ppi": 326,
+    "panel": "AMOLED",
+    "tuning": {
+      "black_point_crush": 14,
+      "pure_black_bg": true,
+      "contrast_multiplier": 1.15,
+      "vibrancy_boost": 1.10,
+      "sharpness_radius": 1.0,
+      "sharpness_percent": 120,
+      "max_package_mb": 3.0
+    },
+    "safe_zones": {
+      "margin_padding": 32,
+      "inscribed_circle_radius": 233,
+      "top_clock": { "x1": 80, "y1": 40, "x2": 386, "y2": 150, "description": "Circular top arc clock" },
+      "center_clock": { "x1": 80, "y1": 180, "x2": 386, "y2": 286, "description": "Circular center clock" },
+      "bottom_clock": { "x1": 80, "y1": 315, "x2": 386, "y2": 425, "description": "Circular bottom arc clock" },
+      "recommended_subject_zone": { "x1": 70, "y1": 70, "x2": 396, "y2": 396, "description": "Inner circle core" }
+    }
+  },
+  "apple_watch_ultra": {
+    "name": "Apple Watch Ultra 1 / 2 (49mm)",
+    "aliases": ["aw_ultra", "apple_watch_ultra", "apple_ultra"],
+    "brand": "Apple",
+    "width": 410,
+    "height": 502,
+    "aspect_ratio": "1:1.224",
+    "screen_shape": "rounded_rectangle",
+    "corner_radius": 52,
+    "screen_diagonal_inches": 1.92,
+    "ppi": 338,
+    "panel": "AMOLED",
+    "tuning": {
+      "black_point_crush": 14,
+      "pure_black_bg": true,
+      "contrast_multiplier": 1.12,
+      "vibrancy_boost": 1.08,
+      "sharpness_radius": 1.0,
+      "sharpness_percent": 115,
+      "max_package_mb": 5.0
+    },
+    "safe_zones": {
+      "margin_padding": 24,
+      "top_clock": { "x1": 20, "y1": 0, "x2": 390, "y2": 130, "description": "Top digital clock widgets" },
+      "bottom_clock": { "x1": 20, "y1": 375, "x2": 390, "y2": 502, "description": "Bottom widgets" },
+      "recommended_subject_zone": { "x1": 24, "y1": 130, "x2": 386, "y2": 470, "description": "Subject focal zone" }
+    }
+  },
+  "galaxy_watch_6_7_large": {
+    "name": "Samsung Galaxy Watch 6 / 7 (44mm / 47mm)",
+    "aliases": ["gw6", "gw7", "galaxy_watch", "galaxy_watch_large"],
+    "brand": "Samsung",
+    "width": 480,
+    "height": 480,
+    "aspect_ratio": "1:1",
+    "screen_shape": "circle",
+    "corner_radius": 240,
+    "screen_diagonal_inches": 1.5,
+    "ppi": 327,
+    "panel": "AMOLED",
+    "tuning": {
+      "black_point_crush": 14,
+      "pure_black_bg": true,
+      "contrast_multiplier": 1.15,
+      "vibrancy_boost": 1.10,
+      "sharpness_radius": 1.0,
+      "sharpness_percent": 120,
+      "max_package_mb": 4.0
+    },
+    "safe_zones": {
+      "margin_padding": 36,
+      "inscribed_circle_radius": 240,
+      "top_clock": { "x1": 90, "y1": 45, "x2": 390, "y2": 160, "description": "Top circular clock" },
+      "center_clock": { "x1": 90, "y1": 190, "x2": 390, "y2": 290, "description": "Center clock" },
+      "bottom_clock": { "x1": 90, "y1": 320, "x2": 390, "y2": 435, "description": "Bottom clock" },
+      "recommended_subject_zone": { "x1": 75, "y1": 75, "x2": 405, "y2": 405, "description": "Inner circle core" }
+    }
+  }
+}
